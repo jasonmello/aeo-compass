@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import zlib from 'node:zlib';
 
-export const UA = 'Mozilla/5.0 (compatible; aeo-skill-audit/1.0)';
+export const UA = 'Mozilla/5.0 (compatible; aeo-compass/1.0)';
 
 // Boolean flags never consume the next argument (otherwise `--json ./folder` swallows the folder).
 export const BOOLEAN_FLAGS = ['send', 'json', 'html', 'quota', 'force'];

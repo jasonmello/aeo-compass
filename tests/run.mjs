@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Offline test suite for the aeo skill scripts. Node >= 18 built-ins only, no network.
+// Offline test suite for the AEO Compass skill scripts. Node >= 18 built-ins only, no network.
 // Run from the skill root: node tests/run.mjs
 // Only folder modes, local sitemaps and dry runs are exercised. Nothing is ever run with --send.
 import { test, after } from 'node:test';

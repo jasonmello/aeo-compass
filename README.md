@@ -1,6 +1,6 @@
-# aeo
+# AEO Compass
 
-A Claude Code skill for Answer Engine Optimization (AEO/GEO): it helps websites, apps and software get found, read and cited by ChatGPT, Perplexity, Gemini, Copilot, Claude and Google AI Overviews.
+AEO Compass is a Claude Code skill for Answer Engine Optimization (AEO/GEO): it helps websites, apps and software get found, read and cited by ChatGPT, Perplexity, Gemini, Copilot, Claude and Google AI Overviews.
 
 [English](#english) · [Español](#espanol) · [Português](#portugues)
 
@@ -34,29 +34,29 @@ The scripts need Node.js 18 or later (no `npm install`; Node built-ins only). Wi
 
 ```bash
 mkdir -p ~/.claude/skills
-git clone https://github.com/jasonmello/aeo.git ~/.claude/skills/aeo
+git clone https://github.com/jasonmello/aeo-compass.git ~/.claude/skills/aeo-compass
 ```
 
-To update later: `git -C ~/.claude/skills/aeo pull`. Downloaded the ZIP instead? Unzip it and move the folder (e.g. `aeo-main`) to `~/.claude/skills/aeo`. Restart Claude Code so it picks up the skill.
+To update later: `git -C ~/.claude/skills/aeo-compass pull`. Downloaded the ZIP instead? Unzip it and move the folder (e.g. `aeo-compass-main`) to `~/.claude/skills/aeo-compass`. Restart Claude Code so it picks up the skill.
 
-To use it in a single project only, put it in `.claude/skills/aeo` inside that project.
+To use it in a single project only, put it in `.claude/skills/aeo-compass` inside that project.
 
 ### Usage
 
-Ask in plain language, or call `/aeo` directly:
+Ask in plain language, or call `/aeo-compass` directly:
 
 - "Audit https://mysite.com for AI search"
 - "Why doesn't my site show up in ChatGPT?"
 - "Build a landing page for my bakery that AI assistants can cite"
 - "I just published three new pages, index them on Bing"
 - "Write an FAQ page from the questions my customers ask"
-- `/aeo audit ./dist`
+- `/aeo-compass audit ./dist`
 
 On first use in a project the skill runs a short onboarding and saves the answers to `aeo/profile.json` and `aeo/questions.md`. Audit reports go to `aeo/reports/YYYY-MM-DD.md`. It replies in your language and writes site content in the site's language.
 
 ### Scripts
 
-All in `scripts/`. Run them from the root of your project, pointing at the skill folder, e.g. `node ~/.claude/skills/aeo/scripts/audit.mjs https://example.com`. Claude runs them for you in the modes described above.
+All in `scripts/`. Run them from the root of your project, pointing at the skill folder, e.g. `node ~/.claude/skills/aeo-compass/scripts/audit.mjs https://example.com`. Claude runs them for you in the modes described above.
 
 | Script | What it does |
 |---|---|
@@ -125,29 +125,29 @@ Los scripts requieren Node.js 18 o superior (sin `npm install`; solo módulos na
 
 ```bash
 mkdir -p ~/.claude/skills
-git clone https://github.com/jasonmello/aeo.git ~/.claude/skills/aeo
+git clone https://github.com/jasonmello/aeo-compass.git ~/.claude/skills/aeo-compass
 ```
 
-Para actualizar: `git -C ~/.claude/skills/aeo pull`. ¿Descargaste el ZIP? Descomprímelo y mueve la carpeta (p. ej. `aeo-main`) a `~/.claude/skills/aeo`. Reinicia Claude Code para que cargue la skill.
+Para actualizar: `git -C ~/.claude/skills/aeo-compass pull`. ¿Descargaste el ZIP? Descomprímelo y mueve la carpeta (p. ej. `aeo-compass-main`) a `~/.claude/skills/aeo-compass`. Reinicia Claude Code para que cargue la skill.
 
-Para usarla en un solo proyecto, colócala en `.claude/skills/aeo` dentro de ese proyecto.
+Para usarla en un solo proyecto, colócala en `.claude/skills/aeo-compass` dentro de ese proyecto.
 
 ### Uso
 
-Pide en lenguaje natural o llama a `/aeo` directamente:
+Pide en lenguaje natural o llama a `/aeo-compass` directamente:
 
 - "Audita https://misitio.com para búsqueda con IA"
 - "¿Por qué mi sitio no aparece en ChatGPT?"
 - "Crea una landing page para mi panadería que la IA pueda citar"
 - "Acabo de publicar tres páginas nuevas, indéxalas en Bing"
 - "Escribe una página de preguntas frecuentes con lo que preguntan mis clientes"
-- `/aeo auditar ./dist`
+- `/aeo-compass auditar ./dist`
 
 La primera vez en un proyecto, la skill hace un onboarding breve y guarda las respuestas en `aeo/profile.json` y `aeo/questions.md`. Los informes de auditoría van a `aeo/reports/YYYY-MM-DD.md`. Responde en tu idioma y escribe el contenido del sitio en el idioma del sitio.
 
 ### Scripts
 
-Todos en `scripts/`. Se ejecutan desde la raíz de tu proyecto apuntando a la carpeta de la skill, por ejemplo `node ~/.claude/skills/aeo/scripts/audit.mjs https://example.com`. Claude los ejecuta por ti en los modos de arriba.
+Todos en `scripts/`. Se ejecutan desde la raíz de tu proyecto apuntando a la carpeta de la skill, por ejemplo `node ~/.claude/skills/aeo-compass/scripts/audit.mjs https://example.com`. Claude los ejecuta por ti en los modos de arriba.
 
 | Script | Qué hace |
 |---|---|
@@ -216,29 +216,29 @@ Os scripts precisam de Node.js 18 ou superior (sem `npm install`; só módulos n
 
 ```bash
 mkdir -p ~/.claude/skills
-git clone https://github.com/jasonmello/aeo.git ~/.claude/skills/aeo
+git clone https://github.com/jasonmello/aeo-compass.git ~/.claude/skills/aeo-compass
 ```
 
-Para atualizar: `git -C ~/.claude/skills/aeo pull`. Baixou o ZIP? Descompacte e mova a pasta (ex.: `aeo-main`) para `~/.claude/skills/aeo`. Reinicie o Claude Code para ele carregar a skill.
+Para atualizar: `git -C ~/.claude/skills/aeo-compass pull`. Baixou o ZIP? Descompacte e mova a pasta (ex.: `aeo-compass-main`) para `~/.claude/skills/aeo-compass`. Reinicie o Claude Code para ele carregar a skill.
 
-Para usar em um só projeto, coloque em `.claude/skills/aeo` dentro desse projeto.
+Para usar em um só projeto, coloque em `.claude/skills/aeo-compass` dentro desse projeto.
 
 ### Uso
 
-Peça em linguagem natural ou chame `/aeo` diretamente:
+Peça em linguagem natural ou chame `/aeo-compass` diretamente:
 
 - "Audite https://meusite.com.br para busca com IA"
 - "Por que meu site não aparece no ChatGPT?"
 - "Crie uma landing page para minha padaria que a IA consiga citar"
 - "Acabei de publicar três páginas novas, indexe no Bing"
 - "Escreva uma página de perguntas frequentes com o que meus clientes perguntam"
-- `/aeo auditar ./dist`
+- `/aeo-compass auditar ./dist`
 
 Na primeira vez em um projeto, a skill faz um onboarding curto e salva as respostas em `aeo/profile.json` e `aeo/questions.md`. Os relatórios de auditoria vão para `aeo/reports/YYYY-MM-DD.md`. Ela responde no seu idioma e escreve o conteúdo do site no idioma do site.
 
 ### Scripts
 
-Todos em `scripts/`. Rode a partir da raiz do seu projeto apontando para a pasta da skill, por exemplo `node ~/.claude/skills/aeo/scripts/audit.mjs https://example.com`. O Claude roda os scripts por você nos modos acima.
+Todos em `scripts/`. Rode a partir da raiz do seu projeto apontando para a pasta da skill, por exemplo `node ~/.claude/skills/aeo-compass/scripts/audit.mjs https://example.com`. O Claude roda os scripts por você nos modos acima.
 
 | Script | O que faz |
 |---|---|

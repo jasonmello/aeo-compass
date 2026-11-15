@@ -2,6 +2,10 @@
 
 All notable changes to this skill are documented here. Versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.1.0] - 2026-11-15
+
+- Renamed the skill to **AEO Compass**: skill name and slash command `/aeo-compass`, repository `jasonmello/aeo-compass`, install folder `~/.claude/skills/aeo-compass`. The project data folder stays `aeo/`.
+
 ## [1.0.0] - 2026-11-15
 
 Initial public release.

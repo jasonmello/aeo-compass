@@ -1,9 +1,9 @@
 ---
-name: aeo
+name: aeo-compass
 description: 'Answer Engine Optimization (AEO/GEO, "SEO for AI") for any website, app or software. Builds sites optimized from the start, audits and fixes existing ones, automates indexing (IndexNow, Bing Webmaster) and writes content in the format ChatGPT, Perplexity, Gemini, Copilot, Claude and Google AI Overviews cite. Use when the user mentions AEO, GEO, LLM SEO, AI search visibility, "show up in ChatGPT", "get cited by AI", llms.txt, schema/JSON-LD, structured data, robots.txt for AI bots, Bing Webmaster, Bing Places, IndexNow, getting pages indexed, backlinks, or asks to build or review a site with search in mind. Also in Portuguese and Spanish: "SEO para IA", "aparecer no ChatGPT", "ser citado pela IA", "aparecer en ChatGPT", "que la IA me cite", "posicionamiento en IA".'
 ---
 
-# /aeo
+# AEO Compass (/aeo-compass)
 
 Steps to get search engines and AI assistants to find, read and cite the site. Works on any stack. In step 0, do only the parts the chosen mode needs (see the table).
 
