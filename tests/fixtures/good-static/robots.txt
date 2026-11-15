@@ -1,0 +1,48 @@
+# robots.txt optimized for AEO (template: adapt before publishing)
+# SEARCH bots (show up in answers): allowed. TRAINING bots: the site owner's choice.
+# Each named group IGNORES the "*" block: repeat every Disallow in each group.
+# Add Disallow only for paths that exist on this site. Do not block routes used
+# to render the page (e.g. /api/ that feeds a SPA) or the og image (e.g. /api/og).
+# robots.txt is public and protects nothing: private areas need a login or noindex.
+
+User-agent: *
+Allow: /
+
+# --- Search / answers ---
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: Applebot
+User-agent: DuckDuckBot
+User-agent: DuckAssistBot
+User-agent: Meta-WebIndexer
+User-agent: Meta-ExternalFetcher
+User-agent: Amzn-SearchBot
+User-agent: Amzn-User
+User-agent: MistralAI-Index
+User-agent: MistralAI-User
+# OAI-AdsBot: only matters if the site advertises on ChatGPT
+User-agent: OAI-AdsBot
+Allow: /
+
+# --- Model training (user's choice) ---
+# Block all: change "Allow: /" to "Disallow: /" in this group.
+# Block just one: remove its line here and create a "User-agent: <bot>" group with "Disallow: /".
+# Google-Extended: blocking it removes the site from grounding in the Gemini app and Vertex AI, not from Google Search.
+# Meta-ExternalAgent and Amazonbot also feed other Meta and Amazon products.
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Meta-ExternalAgent
+User-agent: Amazonbot
+User-agent: MistralAI-Training
+Allow: /
+
+Sitemap: https://example.com/sitemap.xml

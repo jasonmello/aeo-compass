@@ -1,0 +1,42 @@
+{
+  "name": "",
+  "type": "Organization",
+  "_type_options": "Organization | LocalBusiness | Dentist | MedicalClinic | Restaurant | Store | LegalService | ProfessionalService | Person | ... (schema.org)",
+  "description": "",
+  "_description_hint": "One sentence: what it does, for whom and where. Use the same sentence in the Instagram bio and the Google Business Profile.",
+  "url": "",
+  "logo": "",
+  "language": "en",
+  "foundingDate": "",
+  "legalName": "",
+  "taxID": "",
+  "_taxID_hint": "Optional. Fill in only if you want it published in the schema (it shows up in the site code). E.g. CNPJ in Brazil, EIN in the US.",
+  "jobTitle": "",
+  "telephone": "",
+  "email": "",
+  "_address_hint": "Optional. Leave street empty if there is no location that serves the public. Country as a 2-letter code (e.g. US, BR).",
+  "address": { "street": "", "city": "", "state": "", "postalCode": "", "country": "" },
+  "geo": { "lat": null, "lng": null },
+  "mapUrl": "",
+  "areaServed": "",
+  "priceRange": "",
+  "openingHours": [
+    { "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "", "closes": "" }
+  ],
+  "profiles": {
+    "instagram": "",
+    "linkedin": "",
+    "youtube": "",
+    "tiktok": "",
+    "facebook": "",
+    "googleBusinessProfile": "",
+    "github": "",
+    "appStore": "",
+    "playStore": "",
+    "wikidata": ""
+  },
+  "founder": { "name": "", "jobTitle": "", "url": "", "profiles": [] },
+  "app": { "name": "", "type": "SoftwareApplication", "category": "", "operatingSystem": "", "url": "", "storeUrl": "", "price": "", "currency": "USD" },
+  "audience": "",
+  "competitors": []
+}

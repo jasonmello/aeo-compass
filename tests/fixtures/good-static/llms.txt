@@ -1,0 +1,10 @@
+# Example Dental
+
+> Dental implants and general dentistry for adults in Austin, TX.
+
+## Main
+
+- [Dental implants in Austin, TX](https://example.com/)
+- [About Example Dental](https://example.com/about)
+- [Contact us](https://example.com/contact)
+- [Dental implant questions](https://example.com/faq)

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sm:urlset xmlns:sm="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sm:url>
+    <sm:loc><![CDATA[https://example.com/]]></sm:loc>
+    <sm:lastmod>2026-11-10</sm:lastmod>
+  </sm:url>
+  <sm:url>
+    <sm:loc><![CDATA[https://example.com/services/implants]]></sm:loc>
+    <sm:lastmod>2026-11-05T14:30:00-03:00</sm:lastmod>
+  </sm:url>
+  <sm:url>
+    <sm:loc><![CDATA[https://example.com/blog/old-post]]></sm:loc>
+    <sm:lastmod>2026-09-01</sm:lastmod>
+  </sm:url>
+  <sm:url>
+    <sm:loc>https://example.com/about?ref=a&amp;b=c</sm:loc>
+  </sm:url>
+</sm:urlset>

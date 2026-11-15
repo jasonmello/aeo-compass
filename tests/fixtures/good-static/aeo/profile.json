@@ -1,0 +1,32 @@
+{
+  "name": "Example Dental",
+  "type": "Dentist",
+  "description": "Dental implants and general dentistry for adults in Austin, TX.",
+  "url": "https://example.com",
+  "logo": "https://example.com/logo.png",
+  "language": "en",
+  "foundingDate": "2014",
+  "legalName": "",
+  "taxID": "",
+  "jobTitle": "",
+  "telephone": "(512) 555-0100",
+  "email": "hello@example.com",
+  "address": { "street": "123 Main St", "city": "Austin", "state": "TX", "postalCode": "78701", "country": "US" },
+  "geo": { "lat": 30.2672, "lng": -97.7431 },
+  "mapUrl": "",
+  "areaServed": "Austin, TX",
+  "priceRange": "$$",
+  "openingHours": [
+    { "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "08:00", "closes": "18:00" }
+  ],
+  "profiles": {
+    "instagram": "https://www.instagram.com/exampledental",
+    "linkedin": "https://www.linkedin.com/company/exampledental",
+    "youtube": "",
+    "googleBusinessProfile": ""
+  },
+  "founder": { "name": "Dr. Jane Smith", "jobTitle": "DDS", "url": "https://example.com/about", "profiles": [] },
+  "app": { "name": "", "type": "SoftwareApplication", "category": "", "operatingSystem": "", "url": "", "storeUrl": "", "price": "", "currency": "USD" },
+  "audience": "Adults who need dental implants or general dentistry in Austin",
+  "competitors": []
+}
