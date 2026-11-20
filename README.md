@@ -93,7 +93,7 @@ Issues and pull requests are welcome. Keep the scripts dependency-free (Node 18+
 
 ### License
 
-MIT
+Apache 2.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
 
 ---
 
@@ -184,7 +184,7 @@ Los issues y pull requests son bienvenidos. Mantén los scripts sin dependencias
 
 ### Licencia
 
-MIT
+Apache 2.0. Consulta [LICENSE](LICENSE) y [NOTICE](NOTICE).
 
 ---
 
@@ -275,4 +275,4 @@ Issues e pull requests são bem-vindos. Mantenha os scripts sem dependências (s
 
 ### Licença
 
-MIT
+Apache 2.0. Veja [LICENSE](LICENSE) e [NOTICE](NOTICE).
