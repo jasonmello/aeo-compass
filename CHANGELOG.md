@@ -5,6 +5,7 @@ All notable changes to this skill are documented here. Versions follow [Semantic
 ## [Unreleased]
 
 - License changed from MIT to Apache 2.0, with a NOTICE file that redistributions must keep. Versions released before this change stay available under MIT.
+- `references/off-page.md`: Brave Search now points to the URL form at `search.brave.com/submit-url`, described as a re-fetch request (unconfirmed whether it accepts pages Brave doesn't know yet).
 
 ## [1.1.0] - 2026-11-15
 
