@@ -7,7 +7,7 @@ The user does these steps while logged in to their own accounts. The skill provi
 - [ ] **Google Search Console** (https://search.google.com/search-console): verify the domain, submit the sitemap.
 - [ ] **Bing Webmaster Tools** (https://www.bing.com/webmasters): you can **import the site directly from Search Console**. Submit the sitemap, turn on IndexNow, use "URL Submission" for the main pages. Bing feeds ChatGPT search and Copilot.
 - [ ] Check on Bing: `site:domain.com` at bing.com. If nothing shows up, that is problem #1.
-- [ ] **Brave Search**: no webmaster dashboard; make sure the site shows up on `search.brave.com` (relevant for Claude). Being indexable and having backlinks raises the chance of showing up.
+- [ ] **Brave Search** (relevant for Claude): no webmaster dashboard, but there is a URL form at https://search.brave.com/submit-url. Its search snippet reads "Insert the URL to be re-fetched", so treat it as a request to fetch a page again, one URL at a time, not a guaranteed index: it is unconfirmed whether it accepts pages Brave doesn't know yet. Submit the main pages, then check `site:domain.com` on `search.brave.com`. Being indexable and having backlinks still matter most.
 
 ## 2. Local listing (if there is a location that serves the public)
 
