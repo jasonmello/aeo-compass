@@ -141,7 +141,7 @@ add(R, 'search-bots', 10, Math.round(botScore), blocked.length || wafBlocked.len
   blocked.length || wafBlocked.length
     ? `Blocked: ${[...blocked.map((b) => `${b} (robots)`), ...wafBlocked.map((b) => `${b} (firewall/CDN)`)].join(', ')}`
     : `Search bots allowed: ${SEARCH_BOTS.join(', ')}${mode === 'url' ? ' (robots and access test)' : ''}`,
-  wafBlocked.length ? 'Turn off "block AI bots" in Cloudflare/WAF or allow these user agents' : 'Allow the search bots in robots.txt');
+  wafBlocked.length ? 'Allow these user agents in the firewall/CDN (Vercel: AI Bots → AI Assistants; Cloudflare: AI Crawler and Agent access policies → Search and Agent)' : 'Allow the search bots in robots.txt');
 
 const homeNoindex = isNoindex(a, { headers: homeHeaders });
 add(R, 'noindex', 5, homeNoindex ? 0 : 5, homeNoindex ? 'fail' : 'ok', homeNoindex ? 'Home page has noindex (meta robots or X-Robots-Tag)' : 'Home page has no noindex', 'Remove noindex from the home page');

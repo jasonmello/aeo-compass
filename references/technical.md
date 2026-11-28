@@ -42,7 +42,10 @@ Use the **token**, not the version (GPTBot/1.1, /1.3 change).
 
 Obsolete: `anthropic-ai`, `Claude-Web`. No need to list them.
 
-Watch out for **WAF/CDN**: Cloudflare and similar services have a "block AI bots" option turned on by default on some plans. An open robots.txt does nothing if the firewall blocks the bots. Ask the user and have them check the dashboard.
+Watch out for **WAF/CDN**: an open robots.txt does nothing if the firewall blocks the bots first. Both big platforms split AI bots into categories, so the user can block training and still allow the bots that fetch pages for answers. Ask the user to check the dashboard (docs checked 2026-11-28):
+- **Vercel**: Firewall → Rules → Bot Management → **AI Bots** managed ruleset. It is off ("Allow") by default and has two independent settings: **AI Crawlers** (training, e.g. `GPTBot`, `ClaudeBot`) and **AI Assistants** (search and user-triggered fetch, e.g. `OAI-SearchBot`, `ChatGPT-User`, `Claude-User`, `PerplexityBot`). AI Assistants must stay on Allow; AI Crawlers is the user's choice. Since the ruleset is off by default, finding Deny means someone turned it on.
+- **Cloudflare**: Security → Settings → **AI Crawler and Agent access policies**, with separate Search, Agent and Training behaviors. New domains allow all three by default; older zones may still carry an earlier block setting, so check it.
+- Quick check: `curl -A "ChatGPT-User" -I https://example.com` must return 200, not 403. The URL audit runs this test for the search bots.
 
 Blocking training does **not** remove the site from search: you can block GPTBot and allow OAI-SearchBot. Exception: `Google-Extended` also cuts grounding in the Gemini app.
 

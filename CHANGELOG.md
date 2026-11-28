@@ -6,6 +6,7 @@ All notable changes to this skill are documented here. Versions follow [Semantic
 
 - License changed from MIT to Apache 2.0, with a NOTICE file that redistributions must keep. Versions released before this change stay available under MIT.
 - `references/off-page.md`: Brave Search now points to the URL form at `search.brave.com/submit-url`, described as a re-fetch request (unconfirmed whether it accepts pages Brave doesn't know yet).
+- `references/technical.md` and the audit's firewall hint: covers Vercel's AI Bots ruleset (AI Crawlers vs AI Assistants) and Cloudflare's AI Crawler and Agent access policies. Dropped the claim that Cloudflare blocks AI bots by default; per its current docs, new domains allow them.
 
 ## [1.1.0] - 2026-11-15
 
@@ -39,3 +40,4 @@ Some facts in this skill go stale within months. Re-check these every three to f
 | Google rich result changes (FAQ, HowTo, deprecated types) | `references/schema.md`, `references/stacks.md` (Documentation) |
 | Bing Webmaster AI Performance report status (still in preview, what it covers) | `references/off-page.md` (section 6), `references/indexing.md`, `references/audit.md` |
 | IndexNow participating search engines | `references/indexing.md` |
+| Firewall/CDN AI bot settings (Vercel AI Bots ruleset, Cloudflare AI Crawler and Agent access policies) and their defaults | `references/technical.md` (section 2), `scripts/audit.mjs` (firewall hint) |
